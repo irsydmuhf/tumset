@@ -9,14 +9,14 @@ const programs = [
     title: "Inklusi Dalam Aksi",
     description:
       "Workshop dan pelatihan untuk pengembangan diri, literasi, dan keterampilan hidup yang relevan.",
-    tag: "Edukasi",
+    tag: "Workshop",
   },
   {
     icon: BookOpen,
     title: "Aksi Edukasi",
     description:
       "Program lingkungan berbasis komunitas — penanaman pohon, kampanye, dan edukasi ekologis.",
-    tag: "Lingkungan",
+    tag: "Edukasi",
   },
   {
     icon: MessageCircle,
