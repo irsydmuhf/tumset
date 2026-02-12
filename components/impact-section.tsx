@@ -2,10 +2,11 @@
 
 import { useEffect, useRef, useState } from "react"
 import { Quote } from "lucide-react"
+import { CarouselContent } from "./ui/carousel"
 
 const stats = [
-  { value: 500, suffix: "+", label: "Anggota Aktif" },
-  { value: 30, suffix: "+", label: "Program Terlaksana" },
+  { value: 14, suffix: "+", label: "Anggota Aktif" },
+  { value: 12, suffix: "+", label: "Program Terlaksana" },
   { value: 15, suffix: "", label: "Kota Terjangkau" },
   { value: 2000, suffix: "+", label: "Orang Terdampak" },
 ]

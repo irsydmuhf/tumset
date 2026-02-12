@@ -5,14 +5,14 @@ import Image from "next/image"
 
 const photos = [
   {
-    src: "/images/gallery-1.jpg",
-    alt: "Workshop komunitas Tumbuh Setara",
-    caption: "Kelas Tumbuh — Workshop Literasi",
+    src: "/inklusidalamaksi.jpg",
+    alt: "Inklusi Dalam Aksi",
+    caption: "Inklusi Dalam Aksi — Workshop Bahasa Isyarat",
   },
   {
-    src: "/images/gallery-2.jpg",
-    alt: "Aksi penanaman pohon bersama",
-    caption: "Aksi Hijau — Penanaman Pohon",
+    src: "/aksiedukasi.jpg",
+    alt: "Aksi Edukasi",
+    caption: "Aksi Edukasi — SLB C",
   },
   {
     src: "/images/gallery-3.jpg",

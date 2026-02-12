@@ -1,51 +1,37 @@
 "use client"
 
 import { useEffect, useRef } from "react"
-import { BookOpen, TreePine, MessageCircle, Lightbulb, Globe, Sparkles } from "lucide-react"
+import { BookOpen, TreePine, MessageCircle, Lightbulb, Globe, Sparkles, UserCheck } from "lucide-react"
 
 const programs = [
   {
-    icon: BookOpen,
-    title: "Kelas Tumbuh",
+    icon: UserCheck,
+    title: "Inklusi Dalam Aksi",
     description:
       "Workshop dan pelatihan untuk pengembangan diri, literasi, dan keterampilan hidup yang relevan.",
     tag: "Edukasi",
   },
   {
-    icon: TreePine,
-    title: "Aksi Hijau",
+    icon: BookOpen,
+    title: "Aksi Edukasi",
     description:
       "Program lingkungan berbasis komunitas — penanaman pohon, kampanye, dan edukasi ekologis.",
     tag: "Lingkungan",
   },
   {
     icon: MessageCircle,
-    title: "Ruang Bicara",
+    title: "Ngopi: Ngobrol Perkara Inklusi",
     description:
       "Forum diskusi terbuka untuk berbagi cerita, refleksi, dan membangun perspektif bersama.",
     tag: "Dialog",
   },
-  {
-    icon: Lightbulb,
-    title: "Lab Ide",
-    description:
-      "Inkubasi gagasan sosial dari anggota komunitas, dari ide sederhana hingga proyek nyata.",
-    tag: "Inovasi",
-  },
-  {
-    icon: Globe,
-    title: "Jembatan Budaya",
-    description:
-      "Pertukaran budaya dan pengetahuan lintas daerah untuk memperluas wawasan dan empati.",
-    tag: "Budaya",
-  },
-  {
-    icon: Sparkles,
-    title: "Mentoring Setara",
-    description:
-      "Program pendampingan peer-to-peer untuk mendukung pertumbuhan personal dan profesional.",
-    tag: "Pengembangan",
-  },
+  // {
+  //   icon: Globe,
+  //   title: "Jembatan Budaya",
+  //   description:
+  //     "Pertukaran budaya dan pengetahuan lintas daerah untuk memperluas wawasan dan empati.",
+  //   tag: "Budaya",
+  // },
 ]
 
 export function ProgramsSection() {
