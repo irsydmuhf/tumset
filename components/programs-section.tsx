@@ -72,8 +72,9 @@ export function ProgramsSection() {
             </span>
           </h2>
           <p className="mx-auto mt-4 max-w-lg text-lg leading-relaxed text-muted-foreground">
-            Program kami dirancang untuk memberdayakan, menginspirasi, dan
-            menghubungkan — satu langkah pada satu waktu.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Tempore quaerat ex iusto! Odio consequatur perspiciatis vel corporis laborum vero eius? 
+            Perferendis voluptate veniam ea facilis nostrum dolorem illum sequi amet.
           </p>
         </div>
 
