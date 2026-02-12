@@ -83,7 +83,7 @@ export function CtaSection() {
 
             <div className="fade-up opacity-0 translate-y-6 transition-all duration-700 ease-out [&.animate-in]:opacity-100 [&.animate-in]:translate-y-0 mt-12 text-center">
               <a
-                href="mailto:halo@tumbuhsetara.id"
+                href="https://wa.me/6289665996466"
                 className="inline-block rounded-full bg-secondary px-8 py-3.5 text-sm font-bold text-accent-foreground transition-all hover:bg-secondary/90 hover:shadow-lg"
               >
                 Hubungi Kami Sekarang

@@ -5,8 +5,8 @@ import { Quote } from "lucide-react"
 import { CarouselContent } from "./ui/carousel"
 
 const stats = [
-  { value: 14, suffix: "+", label: "Anggota Aktif" },
-  { value: 12, suffix: "+", label: "Program Terlaksana" },
+  { value: 14, suffix: "", label: "Anggota Aktif" },
+  { value: 12, suffix: "", label: "Program Terlaksana" },
   { value: 15, suffix: "", label: "Kota Terjangkau" },
   { value: 2000, suffix: "+", label: "Orang Terdampak" },
 ]
@@ -14,14 +14,14 @@ const stats = [
 const testimonials = [
   {
     quote:
-      "Tumbuh Setara mengajarkan saya bahwa perubahan tidak harus besar. Yang penting, kita mulai dan kita bersama.",
-    name: "Anisa Rahmawati",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, illo? Similique fuga voluptatem placeat recusandae impedit animi nobis explicabo facere, quaerat ullam nostrum fugiat velit corrupti ad consequuntur sequi alias.",
+    name: "Jane Doe",
     role: "Relawan sejak 2023",
   },
   {
     quote:
-      "Di sini saya menemukan ruang di mana pendapat saya didengar, di mana saya merasa punya tempat untuk bertumbuh.",
-    name: "Rizky Pratama",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, illo? Similique fuga voluptatem placeat recusandae impedit animi nobis explicabo facere, quaerat ullam nostrum fugiat velit corrupti ad consequuntur sequi alias.",
+    name: "John Doe",
     role: "Peserta Kelas Tumbuh",
   },
 ]

@@ -1,8 +1,8 @@
-import { Instagram, Mail, MapPin } from "lucide-react"
+import { icons, Instagram, Mail, MapPin } from "lucide-react"
 
 const socialLinks = [
-  { icon: Instagram, href: "#", label: "Instagram" },
-  { icon: Mail, href: "mailto:halo@tumbuhsetara.id", label: "Email" },
+  { icon: Instagram, href: "https://instagram.com/tumbuh_setara", label: "Instagram" },
+  { icon: Mail, href: "mailto:tumbuhsetara@gmail.com", label: "Email" },
 ]
 
 export function Footer() {
@@ -32,7 +32,8 @@ export function Footer() {
             </div>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">
               Komunitas yang percaya bahwa setiap orang berhak bertumbuh.
-              Bersama kita melangkah, bersama kita setara.
+              <br></br>
+              Berdaya Bersama, Wujudkan Asa.
             </p>
           </div>
 
@@ -80,11 +81,11 @@ export function Footer() {
             </h4>
             <div className="mt-4 flex flex-col gap-3">
               <a
-                href="mailto:halo@tumbuhsetara.id"
+                href="mailto:tumbuhsetara@gmail.com"
                 className="flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-primary"
               >
                 <Mail size={16} />
-                halo@tumbuhsetara.id
+                tumbuhsetara@gmail.com
               </a>
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <MapPin size={16} />
@@ -109,7 +110,7 @@ export function Footer() {
         <div className="mt-12 border-t border-border pt-8">
           <div className="flex flex-col items-center gap-4 text-center md:flex-row md:justify-between md:text-left">
             <p className="font-serif text-sm italic text-muted-foreground">
-              {`"Karena bertumbuh bukan soal sampai duluan, tapi soal tidak ada yang tertinggal."`}
+              {`"Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus distinctio beatae praesentium accusantium perferendis"`}
             </p>
             <p className="text-xs text-muted-foreground">
               {`\u00A9 ${new Date().getFullYear()} Tumbuh Setara. Semua hak dilindungi.`}
