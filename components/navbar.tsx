@@ -22,11 +22,10 @@ export function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? "bg-background/95 backdrop-blur-md shadow-sm"
-          : "bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
+        ? "bg-background/95 backdrop-blur-md shadow-sm"
+        : "bg-transparent"
+        }`}
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <a href="#" className="flex items-center gap-2">
@@ -44,9 +43,19 @@ export function Navbar() {
               />
             </svg>
           </div>
-          <span className="text-lg font-bold tracking-tight text-foreground">
-            Tumbuh Setara
+          <span className="text-lg font-bold tracking-tight transition-colors duration-300">
+            <span
+              className={`transition-colors duration-300 ${scrolled ? "text-primary" : "text-white"
+                }`}
+            >
+              Tumbuh
+            </span>{" "}
+            <span className="text-yellow-400">
+              Setara
+            </span>
           </span>
+
+
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">
@@ -54,7 +63,13 @@ export function Navbar() {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+              className={`relative rounded-full px-3 py-1 text-sm font-medium transition-all
+  ${scrolled
+                  ? "text-muted-foreground hover:text-primary"
+                  : "text-white hover:bg-white/20 hover:backdrop-blur-md"
+                }
+`}
+
             >
               {link.label}
             </a>
