@@ -13,7 +13,7 @@ import "swiper/css/effect-fade"
 const heroImages = [
   "/foto.jpg",
   "/aksiedukasi.jpg",
-  "/inklusidalamaksi.jpg",
+  "/inklusidalamaksi.JPG",
 ]
 
 export function HeroSection() {
