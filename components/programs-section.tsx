@@ -8,21 +8,21 @@ const programs = [
     icon: UserCheck,
     title: "Inklusi Dalam Aksi",
     description:
-      "Workshop dan pelatihan untuk pengembangan diri, literasi, dan keterampilan hidup yang relevan.",
+      "Program pengalaman langsung seperti pelatihan bahasa isyarat, membaca braille, dan orientasi mobilitas untuk membangun empati, pemahaman, dan keterlibatan aktif masyarakat dalam mewujudkan lingkungan yang inklusif.",
     tag: "Workshop",
   },
   {
     icon: BookOpen,
     title: "Aksi Edukasi",
     description:
-      "Program lingkungan berbasis komunitas — penanaman pohon, kampanye, dan edukasi ekologis.",
+      "Program kunjungan edukatif ke SLB, sekolah inklusi, dan sekolah reguler untuk memberikan pembelajaran inklusif, pelatihan keterampilan, serta pemahaman tentang hak pendidikan bagi penyandang disabilitas secara langsung dan aplikatif.",
     tag: "Edukasi",
   },
   {
     icon: MessageCircle,
-    title: "Ngopi: Ngobrol Perkara Inklusi",
+    title: "Ngopi: Ngomong Perkara Inklusi",
     description:
-      "Forum diskusi terbuka untuk berbagi cerita, refleksi, dan membangun perspektif bersama.",
+      "Ruang diskusi terbuka yang membahas isu-isu inklusivitas secara hangat dan mendalam, mendorong dialog, kolaborasi, serta perspektif baru tentang kesetaraan bagi penyandang disabilitas.",
     tag: "Dialog",
   },
   // {
