@@ -15,7 +15,7 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'Tumbuh Setara — Bertumbuh Bersama, Melangkah Setara',
+  title: 'Tumbuh Setara — Berdaya Bersama, Wujudkan Asa',
   description:
     'Komunitas yang berfokus pada pertumbuhan bersama, kesetaraan, edukasi, dan dampak sosial. Bertumbuh bersama tanpa meninggalkan siapa pun.',
 }
