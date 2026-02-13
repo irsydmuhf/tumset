@@ -5,7 +5,7 @@ import Image from "next/image"
 
 const photos = [
   {
-    src: "/inklusidalamaksi.jpg",
+    src: "/inklusidalamaksi.JPG",
     alt: "Inklusi Dalam Aksi",
     caption: "Inklusi Dalam Aksi — Workshop Bahasa Isyarat",
   },
