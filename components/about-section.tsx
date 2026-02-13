@@ -76,15 +76,19 @@ export function AboutSection() {
             Tentang Kami
           </span>
 
-          <h2 className="max-w-xl font-serif text-3xl font-bold leading-tight tracking-tight text-foreground md:text-4xl lg:text-5xl">
-            <span className="text-balance">
-              Berdaya Bersama, Wujudkan Asa
+          <h2 className="max-w-xl font-serif text-3xl font-bold leading-tight tracking-tight md:text-4xl lg:text-5xl">
+            <span className="text-primary">
+              Tumbuh
+            </span>{" "}
+            <span className="text-yellow-400">
+              Setara
             </span>
           </h2>
 
+
           <div className="mt-6 max-w-2xl">
             <p className="text-lg leading-relaxed text-muted-foreground">
-              Komunitas ini bertujuan menghadirkan akses pendidikan yang setara dan berkualitas bagi penyandang disabilitas. 
+              Komunitas ini bertujuan menghadirkan akses pendidikan yang setara dan berkualitas bagi penyandang disabilitas.
               Selain itu, komunitas ini juga mendorong kesadaran dan keterlibatan masyarakat dalam menciptakan lingkungan yang inklusif.
               Melalui kolaborasi dengan berbagai pihak, komunitas ini membangun sinergi demi pendidikan yang adil, sekaligus menjadi ruang tumbuh bersama untuk saling belajar dan berkembang dalam semangat solidaritas dan pemberdayaan.
             </p>
