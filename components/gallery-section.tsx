@@ -16,23 +16,23 @@ const photos = [
   },
   {
     src: "/images/gallery-3.jpg",
-    alt: "Diskusi kelompok kecil di ruang komunitas",
-    caption: "Ruang Bicara — Diskusi Reflektif",
+    alt: "Foto",
+    caption: "Foto",
   },
   {
-    src: "/images/gallery-4.jpg",
-    alt: "Perayaan kegiatan komunitas",
-    caption: "Perayaan Kebersamaan",
+    src: "/images/gallery-3.jpg",
+    alt: "Foto",
+    caption: "Foto",
   },
   {
-    src: "/images/gallery-5.jpg",
-    alt: "Sesi brainstorming kreatif",
-    caption: "Lab Ide — Brainstorming",
+    src: "/images/gallery-3.jpg",
+    alt: "Foto",
+    caption: "Foto",
   },
   {
-    src: "/images/gallery-6.jpg",
-    alt: "Kegiatan membaca bersama",
-    caption: "Pojok Baca Komunitas",
+    src: "/images/gallery-3.jpg",
+    alt: "Foto",
+    caption: "Foto",
   },
 ]
 
